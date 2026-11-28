@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cda6w3iqku3ly"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8p48p"]
+radius = 7.0
+height = 20.0
+
+[node name="PLayer" type="CharacterBody2D" unique_id=1577096040]
+
+[node name="Sprite" type="AnimatedSprite2D" parent="." unique_id=1212002218]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2047159570]
+position = Vector2(0, 10)
+shape = SubResource("CapsuleShape2D_8p48p")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=34314018]
